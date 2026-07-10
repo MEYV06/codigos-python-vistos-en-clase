@@ -2,10 +2,10 @@
 def calculate_force(mass, acceleration):
     return mass * acceleration
 
-data = {'masa': 60, 'aceleracion': 9.8, 'friccion': 0.3}
+data = {'mass': 60, 'acceleration': 9.8, 'friction': 0.3}
 
 # Crear un nuevo diccionario con solo las claves necesarias
-physics_data = {key: data[key] for key in ['masa', 'aceleracion']}
+physics_data = {key: data[key] for key in ['mass', 'acceleration']}
 
 # Desempaquetando el diccionario filtrado
 force = calculate_force(**physics_data)

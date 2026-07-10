@@ -2,8 +2,8 @@
 def calculate_kinetic_energy(mass, velocity):
     return 0.5 * mass * velocity ** 2
 
-mass_data = {'masa': 70}
-velocity_data = {'velocidad': 15}
+mass_data = {'mass': 70}
+velocity_data = {'velocity': 15}
 
 # combinar diccionarios con **
 # si hay claves duplicadas, la ultima se utilizara

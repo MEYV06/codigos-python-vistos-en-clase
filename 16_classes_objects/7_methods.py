@@ -32,6 +32,6 @@ print('Multiplication:', MathOperations.multiply(5, 3))  # Multiplicacion: 15
 # Llama a una metodo estatico:
 print('Subtraction:', MathOperations.subtract(5, 3))  # Resta: 2
 
-# Nota: Metodos instancia se utilizan para operar sobre propiedades de los objetos.
+# Nota: Metodos instancia se utilizan para operar sobre atributos de los objetos.
 # Metodos de clase operan sobre el objeto mismo y estan marcados con @classmethod.
 # Metodos estaticos no modifican la estado del objeto ni del objeto mismo y estan marcados con @staticmethod.

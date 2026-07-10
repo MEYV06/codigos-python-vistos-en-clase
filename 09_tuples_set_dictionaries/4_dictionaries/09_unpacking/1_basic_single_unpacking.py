@@ -2,6 +2,7 @@
 def calculate_area(length, width):
     return length * width
 
+# ¿Hay algun error?
 dimensions = {'longitud': 10, 'ancho': 5}
 
 # Desempaquetando el diccionario en argumentos de la funcion

@@ -2,7 +2,7 @@
 def calculate_circle_area(radius, pi=3.14159):
     return pi * radius ** 2
 
-circle = {'radio': 7}
+circle = {'radius': 7}
 
 # Desempaquetando el diccionario con valor predeterminado para pi
 area = calculate_circle_area(**circle)

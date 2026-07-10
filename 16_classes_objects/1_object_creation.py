@@ -8,14 +8,14 @@
 class Dog:
     # El metodo `__init__` es un metodo especial utilizado para inicializar nuevos objetos.
     def __init__(self, name, age):
-        self.name = name  # Asignar propiedades a la objeto
+        self.name = name  # Asignar atributos al objeto
         self.age = age
 
 
 # Crear una instancia de la clase Perro
 my_dog = Dog("Amigo", 5)
 
-# Accediendo a propiedades de objetos
+# Accediendo a atributos del objeto
 print("My dog's name is", my_dog.name, 'and he is', my_dog.age, 'years old.')
 # Salidas: Mi perro se llama Buddy y tiene 5 anos.
 

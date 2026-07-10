@@ -25,4 +25,4 @@ print('Area of the circle:', my_circle.area())  # Salida: Area del circulo: 78.5
 print('Circumference of the circle:', my_circle.circumference())  # Circunferencia de la circunferencia: 31.4159
 
 # Metodos son similares a las funciones, pero se definen dentro de una clase y se llaman en instancias de esa clase.
-# Los metodos operan sobre los propiedades del objeto proporcionando comportamiento especifico para ese objeto.
+# Los metodos operan sobre los atributos del objeto proporcionando comportamiento especifico para ese objeto.

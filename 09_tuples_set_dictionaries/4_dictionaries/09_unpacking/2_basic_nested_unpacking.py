@@ -3,14 +3,14 @@ def calculate_volume(length, width, height):
     return length * width * height
 
 box = {
-    'materiales': 'carton',
-    'dimensiones': {
-        'longitud': 10,
-        'ancho': 5,
-        'altura': 4
+    'materials': 'carton',
+    'dimensions': {
+        'length': 10,
+        'width': 5,
+        'height': 4
     }
 }
 
 # Desempaquetando la diccionario 'dimensiones'
-volume = calculate_volume(**box['dimensiones'])
+volume = calculate_volume(**box['dimensions'])
 print('Volume:', volume)  # Salida: Volumen: 200
