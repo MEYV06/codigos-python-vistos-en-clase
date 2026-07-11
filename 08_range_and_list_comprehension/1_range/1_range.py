@@ -77,7 +77,7 @@ print('Lista de numeros del 1 al 10:', numbers_list)
 
 
 
-##Resolucion:
+##Resolución:
 
 # TODO 1: crea una lista con numeros del 1 al 10 usando range().
 # Luego revisa el valor de numbers para ver la lista creada.
